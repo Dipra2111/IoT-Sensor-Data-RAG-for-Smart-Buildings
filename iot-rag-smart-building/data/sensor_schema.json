@@ -1,0 +1,30 @@
+{
+  "fields": [
+    {
+      "name": "timestamp",
+      "type": "datetime"
+    },
+    {
+      "name": "sensor_id",
+      "type": "string"
+    },
+    {
+      "name": "metric",
+      "type": "string",
+      "enum": [
+        "temperature",
+        "vibration",
+        "power",
+        "flow"
+      ]
+    },
+    {
+      "name": "value",
+      "type": "float"
+    },
+    {
+      "name": "unit",
+      "type": "string"
+    }
+  ]
+}

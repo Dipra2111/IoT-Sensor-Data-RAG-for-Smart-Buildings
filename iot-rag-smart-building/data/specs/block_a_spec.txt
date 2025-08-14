@@ -1,0 +1,14 @@
+Building Specification - Block A
+Systems:
+- HVAC: 2 chillers, 6 AHUs, 12 VAV zones
+- Pumps: CP-1, CP-2, CP-3 (primary loop), DP-1 (domestic)
+- Energy Metering: EM-1 per floor, EM-2 per chiller
+Sensor Naming:
+- temp.Z{zone}.C
+- vib.PUMP{n}.mm_s
+- power.AHU{k}.kW
+- flow.CP{n}.m3h
+Setpoints:
+- Zone Temperature: 23.5 ± 1.0 C
+- Pump Vibration Alarm: > 7.1 mm/s RMS (ISO 10816)
+- AHU Power Baseline: 3.5–5.0 kW at 60% speed

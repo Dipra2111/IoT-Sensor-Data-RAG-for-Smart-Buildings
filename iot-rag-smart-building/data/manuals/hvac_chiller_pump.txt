@@ -1,0 +1,17 @@
+HVAC Maintenance Manual - Chiller Pump CP-3
+Common issues & fixes:
+1) High vibration:
+   - Check bearing lubrication per ISO 281.
+   - Verify pump alignment (tolerance <= 0.1 mm).
+   - Inspect cavitation (listen for crackling; suction pressure too low).
+2) Overheating motor:
+   - Clean air filters.
+   - Verify fan operation and unobstructed airflow.
+   - Measure current draw; if > 110% rated, inspect phase imbalance.
+3) Low flow rate:
+   - Check clogged strainer.
+   - Verify valve positions.
+   - Inspect impeller wear.
+Safety steps before any maintenance:
+- Lockout/Tagout according to facility SOP.
+- Wait 5 minutes after power-down before opening panels.
